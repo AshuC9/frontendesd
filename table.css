@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color:#222222;
+}
+
+#test1,#test2,#test3{
+    color:white;
+}
+
+#test1:hover,#test2:hover,#test3:hover
+{
+    color:aqua;
+}
+
+body{
+    background-color:azure;
+}
+
+.active{
+    color:aqua;
+}
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyzAk2EcD2aYvxluOnVdRisz6IT4odFDwWdQ&usqp=CAU);
+	background-size: cover;
+	background-repeat:no-repeat;
+}
